@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel-container{
+    top: 30px;
+    width: 43%;
+    margin: auto;
+    border: 3px solid grey;
+    overflow: hidden;
+    position: relative;
+}
+.carousel-slide{
+    display: flex;
+    width: 100%;
+    height: 500px;
+}
+#prevBtn{
+    position: absolute;
+    top:50%;
+    z-index: 10;
+    left: 4%;
+    font-size: 30px;
+    height: 6vh;
+    width: 2.8vw;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: white;
+    opacity: 0.5;
+}
+#nextBtn{
+    position: absolute;
+    top: 50%;
+    z-index: 10;
+    right: 4%;
+    font-size: 30px;
+    height: 6vh;
+    width: 2.8vw;
+    color: white;
+    background-color: black;
+    border-radius: 30px;
+    cursor: pointer;
+    border-color: white;
+    opacity: 0.5;
+
+}
